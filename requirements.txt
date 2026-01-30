@@ -13,6 +13,6 @@ seaborn
 gdown
 tqdm
 PyYAML
-python-box==6.0.2
+python-box==6.0.2   #i'm using because it has exception fucntionality....
 ensure==1.0.2
 -e .

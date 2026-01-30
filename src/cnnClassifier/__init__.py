@@ -7,7 +7,7 @@ import sys
 logging_str = "[%(asctime)s]: %(levelname)s: %(module)s: %(message)s]"
 
 log_dir = "logs"
-log_filepath = os.path.join(log_dir, 'running_logs.log')
+log_filepath = os.path.join(log_dir, 'logs_run.log')
 os.makedirs(log_dir, exist_ok=True)
 
 logging.basicConfig(
@@ -18,4 +18,4 @@ logging.basicConfig(
         logging.StreamHandler(sys.stdout)
     ])
 
-logger = logging.getLogger('chest_cancer_detection_logger')
+logger = logging.getLogger('cnnClassifier')
