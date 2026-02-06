@@ -16,7 +16,7 @@ class PrepareBaseModelTrainingPipeline:
         prepare_base_model.update_base_model()
         
 
-if __name__ == '__main__':
+if __name__ == '__main__':     
     try:
         logger.info(f"------------")
         logger.info(f"Pipeline {stage} Started ------>>>")
