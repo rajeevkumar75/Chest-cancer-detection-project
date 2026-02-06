@@ -3,9 +3,10 @@ from cnnClassifier.components.data_ingestion import DataIngestion
 from cnnClassifier import logger
 
 
-STAGE_NAME = "Data Ingestion Stage"
+stage = "Data Ingestion Stage"
 
 class DataIngestionTrainingPipeline:
+    
     def __init__(self):
         pass
 
@@ -20,10 +21,10 @@ class DataIngestionTrainingPipeline:
 
 if __name__ == "__main__":
     try:
-        logger.info(f">>>>>> Stage {STAGE_NAME} started <<<<<<")
+        logger.info(f"Stage {stage} started:-------")
         obj = DataIngestionTrainingPipeline()
         obj.main()
-        logger.info(f">>>>>> Stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
+        logger.info(f"Stage {stage} completed !")
     except Exception as e:
         logger.exception(e)
         raise e
