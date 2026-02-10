@@ -2,5 +2,4 @@
 
 UNDER CONSTRUCTION.....
 
-### Project workflow:
-config.yaml -> params.yaml -> entity -> building src configs -> components -> building pipeline -> main.py -> dvc.yaml...
+Live: https://rajeevkumar75-chest-cancer-detection-projec-templatesapp-wwat91.streamlit.app/
