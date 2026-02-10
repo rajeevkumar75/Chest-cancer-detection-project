@@ -17,11 +17,10 @@ list_of_files = [
     f"src/{project_name}/entity/__init__.py",
     f"src/{project_name}/constants/__init__.py",
     "config/config.yaml",
-    "dvc.yaml",
     "params.yaml",
     "setup.py",
-    "research/trials.ipynb",
-    "templates/index.html",]
+    "Notebook/data_ingestion.ipynb",
+    "templates/app.py",]
 
 for filepath in list_of_files:
     filepath = Path(filepath)
