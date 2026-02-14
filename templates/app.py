@@ -51,7 +51,7 @@ if 'history' not in st.session_state:
     st.session_state.history = []
 
 # --- Model Loading ---
-MODEL_PATH = r"artifacts\trained_model\model.h5"
+MODEL_PATH = r"artifacts/trained_model/model.h5"
 
 @st.cache_resource
 def load_trained_model():
